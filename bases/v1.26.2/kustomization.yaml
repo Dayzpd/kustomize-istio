@@ -7,14 +7,14 @@ resources:
 - istio-ambient.yaml
 images:
 - name: docker.io/istio/proxyv2
-  newName: pulp.local.zachary.day/docker-cache/istio/proxyv2
+  newName: harbor.local.zachary.day/docker-cache/istio/proxyv2
 - name: docker.io/istio/install-cni
-  newName: pulp.local.zachary.day/docker-cache/istio/install-cni
+  newName: harbor.local.zachary.day/docker-cache/istio/install-cni
 - name: docker.io/istio/pilot
-  newName: pulp.local.zachary.day/docker-cache/istio/pilot
+  newName: harbor.local.zachary.day/docker-cache/istio/pilot
 - name: docker.io/istio/ztunnel
-  newName: pulp.local.zachary.day/docker-cache/istio/ztunnel
+  newName: harbor.local.zachary.day/docker-cache/istio/ztunnel
 - name: busybox
-  newName: pulp.local.zachary.day/docker-cache/busybox
+  newName: harbor.local.zachary.day/docker-cache/busybox
 
 # istioctl manifest generate --set profile=ambient > istio-ambient.yaml
